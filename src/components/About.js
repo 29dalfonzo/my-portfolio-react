@@ -1,6 +1,6 @@
 import React from "react";
 
-import {useTranslation, Trans} from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 
 export default function About() {
   const {t} = useTranslation()
@@ -12,20 +12,18 @@ export default function About() {
             {t('hi')}
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            {t('about')}
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
               className="inline-flex text-white bg-blue-900 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Contact Me
+              {t('contact')}
             </a>
             <a
               href="#projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Work
+              {t('seeMyWork')}
             </a>
           </div>
         </div>
@@ -33,7 +31,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./coding.svg"
+            src="./Programmer.gif"
           />
         </div>
       </div>
