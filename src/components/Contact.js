@@ -39,17 +39,16 @@ export default function Contact() {
             alt="hero"
             src="./Programming.gif"
           />
-          {/*           <div className="w-full bg-gray-700 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
+        </div>
+             <div className="flex flex-wrap py-6 rounded">
+            <div className="lg:w-2/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
               <p className="mt-1">
                 Caracas. <br />
-                Venezuela
+                Venezuela <br />
               </p>
-            </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
@@ -59,11 +58,10 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">(+58)412-816-0254</p>
+              <p className="leading-relaxed">(+58) 412-816-0254</p>
             </div>
-          </div> */}
-        </div>
-        <form
+          </div>
+{/*         <form
           netlify
           onSubmit={handleSubmit}
           name="contact"
@@ -116,7 +114,7 @@ export default function Contact() {
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             {t('send')}
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );
