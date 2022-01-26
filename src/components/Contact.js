@@ -1,6 +1,9 @@
 import React from "react";
+import {useTranslation} from 'react-i18next';
 
 export default function Contact() {
+  const {t} = useTranslation()
+
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
@@ -36,7 +39,7 @@ export default function Contact() {
             alt="hero"
             src="./Programming.gif"
           />
-{/*           <div className="w-full bg-gray-700 relative flex flex-wrap py-6 rounded shadow-md">
+          {/*           <div className="w-full bg-gray-700 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
@@ -66,15 +69,14 @@ export default function Contact() {
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
+            {t('contact')}
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            {t('contactMessage')}
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-              Name
+              {t('name')}
             </label>
             <input
               onChange={(e) => setName(e.target.value)}
@@ -86,7 +88,7 @@ export default function Contact() {
           </div>
           <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
-              Email
+              {t('email')}
             </label>
             <input
               onChange={(e) => setEmail(e.target.value)}
@@ -100,7 +102,7 @@ export default function Contact() {
             <label
               htmlFor="message"
               className="leading-7 text-sm text-gray-400">
-              Message
+              {t('message')}
             </label>
             <textarea
               onChange={(e) => setMessage(e.target.value)}
@@ -112,7 +114,7 @@ export default function Contact() {
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Submit
+            {t('send')}
           </button>
         </form>
       </div>

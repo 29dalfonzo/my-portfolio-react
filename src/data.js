@@ -1,50 +1,50 @@
 export const projects = [
-  {
+/*   {
     title: "CRUD Firestore",
     subtitle: "React, Firestore",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
-  },
+    link: "https://github.com/29dalfonzo/crud-firestore-react",
+  }, */
   {
     title: "Weather App",
     subtitle: "React and API",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    image: "./WeatherApp.gif",
+    link: "https://github.com/29dalfonzo/weather-react-app",
   },
   {
     title: "Expense Tracker",
     subtitle: "React",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    image: "./ExpenseTracker.gif",
+    link: "https://github.com/29dalfonzo/expense-tracker-react",
   },
   {
     title: "Cryptolist",
     subtitle: "React and API",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    image: "./Cryptolist.gif",
+    link: "https://github.com/29dalfonzo/cryptolist",
   },
   {
     title: "My Portfolio",
     subtitle: "React and Tailwind",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    image: "./Portfolio.gif",
+    link: "https://github.com/29dalfonzo/my-portfolio-react",
   },
   {
     title: "Fibex App",
     subtitle: "React Native",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+    image: "./Fibex.gif",
     link: "https://play.google.com/store/apps/details?id=com.pagepro.fibexoficinamovilapp&hl=es_VE&gl=US",
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
     subtitle: "Angular, GraphQL and services",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+    image: "./Thomas.gif",
     link: "https://thomas-talk.me",
   },
 ];
@@ -79,8 +79,8 @@ export const skills = [
   "Css",
   "JavaScript",
   "TypeScript",
-  "React",
   "Angular",
+  "React",
   "NodeJS",
   "GraphQL",
   "MongoDB",
