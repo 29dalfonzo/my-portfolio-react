@@ -1,59 +1,59 @@
 export const projects = [
-/*   {
-    title: "CRUD Firestore",
-    subtitle: "React, Firestore",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://github.com/29dalfonzo/crud-firestore-react",
-  }, */
   {
     title: "Weather App",
     subtitle: "React and API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Una app para saber el clima de cualquier ciudad del mundo usando el servicio de openweather",
     image: "./WeatherApp.gif",
-    link: "https://github.com/29dalfonzo/weather-react-app",
+    github: "https://github.com/29dalfonzo/weather-react-app",
   },
   {
     title: "Expense Tracker",
     subtitle: "React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Una app que use a modo de practica sobre un control de gastos usando createContext y useReducer",
     image: "./ExpenseTracker.gif",
-    link: "https://github.com/29dalfonzo/expense-tracker-react",
+    github: "https://github.com/29dalfonzo/expense-tracker-react",
   },
   {
     title: "Cryptolist",
     subtitle: "React and API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Un listado de criptomonedas usando la api de coingecko y bootswatch para los estilos",
     image: "./Cryptolist.gif",
-    link: "https://github.com/29dalfonzo/cryptolist",
+    github: "https://github.com/29dalfonzo/cryptolist",
   },
   {
     title: "My Portfolio",
     subtitle: "React and Tailwind",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Un portafolio creado usando Tailwind para los estilos y i18n para el manejo de idiomas",
     image: "./Portfolio.gif",
-    link: "https://github.com/29dalfonzo/my-portfolio-react",
+    github: "https://github.com/29dalfonzo/my-portfolio-react",
   },
   {
     title: "Fibex App",
     subtitle: "React Native",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Un portafolio creado usando Tailwind para los estilos y i18n para el manejo de idiomas",
     image: "./Fibex.gif",
-    link: "https://play.google.com/store/apps/details?id=com.pagepro.fibexoficinamovilapp&hl=es_VE&gl=US",
   },
   {
     title: "Thomas",
     subtitle: "Angular, GraphQL and services",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Una app para lograr un WhatsApp Multiusuario para la atención de clientes y la administración de todo el sistema usando Angular, Graphql, Express, websocket.",
     image: "./Thomas.gif",
-    link: "https://thomas-talk.me",
+    demo: "https://thomas-talk.me",
+  },
+  {
+    title: "Angular/React Hackernews App",
+    subtitle: "Angular, React, API ",
+    description:
+      "This is a simple and small responsive app to show data from the Hackers News public API, also you can select wich news you want to search (Angular, React or Vue) and save it as Fav so you will be able to see it in tab “My Faves” .",
+    image: "./HackerNews.gif",
+    demo: "https://github.com/29dalfonzo/angular-reign-test-app",
+		github: "https://29dalfonzo-hackernews-a.netlify.app/",
   },
 ];
 

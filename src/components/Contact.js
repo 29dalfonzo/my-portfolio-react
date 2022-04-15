@@ -1,33 +1,33 @@
 import React from "react";
-import {useTranslation} from 'react-i18next';
+// import {useTranslation} from 'react-i18next';
 
 export default function Contact() {
-  const {t} = useTranslation()
+  // const {t} = useTranslation()
+  //
+  // const [name, setName] = React.useState("");
+  // const [email, setEmail] = React.useState("");
+  // const [message, setMessage] = React.useState("");
 
-  const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  // const encode = (data) => {
+  //   return Object.keys(data)
+  //     .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+  //     .join("&");
+  // };
 
-  const encode = (data) => {
-    return Object.keys(data)
-      .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
-  };
-
-  const handleSubmit = (e) => {
-    //TODO add tostify
-    e.preventDefault();
-    console.log(name, email, message);
-    fetch("/", {
-      method: "POST",
-      headers: {"Content-Type": "application/x-www-form-urlencoded"},
-      body: encode({"form-name": "contact", name, email, message}),
-    })
-      .then(() => {
-        alert("Success!")
-      })
-      .catch((error) => alert(error));
-  };
+  // const handleSubmit = (e) => {
+  //   //TODO add tostify
+  //   e.preventDefault();
+  //   console.log(name, email, message);
+  //   fetch("/", {
+  //     method: "POST",
+  //     headers: {"Content-Type": "application/x-www-form-urlencoded"},
+  //     body: encode({"form-name": "contact", name, email, message}),
+  //   })
+  //     .then(() => {
+  //       alert("Success!")
+  //     })
+  //     .catch((error) => alert(error));
+  // };
 
   return (
     <section id="contact" className="relative">
